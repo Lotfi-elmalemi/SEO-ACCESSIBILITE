@@ -13,6 +13,35 @@ button {
     outline: none!important;
 }
 
+.btn-atomic-tangerine:focus {
+    background:#2e006c!important;
+    color:#fff!important
+}
+
+.nav>li a:focus {
+    background:0 0;
+    color:#2e006c!important;
+    text-decoration:underline;
+    font-weight:700;
+}
+
+.realisation-img:focus {
+    border:solid 4px #2e006c;
+    border-radius:5px
+}
+
+.bold-link:focus {
+    color: #2e006c!important;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.social:focus .icon-md {
+    color: #2e006c!important;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -1036,6 +1065,10 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .btn-atomic-tangerine {
+        height: 48px;
     }
 }
 
